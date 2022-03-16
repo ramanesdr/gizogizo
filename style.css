@@ -1,0 +1,13 @@
+overflow-ellipsis{
+    width: 200px;
+    border: 1px solid;
+    padding: 2px 5px;
+  
+    /* Les deux règles suivantes sont nécessaires pour text-overflow */
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+overflow-ellipsis {
+    text-overflow: clip;
+  }
