@@ -113,6 +113,17 @@ Create An Account
            
           </div>
         </div>
+        <div class="input-field col s12">
+          <select>
+            <option value="" disabled selected>Select Role</option>
+            <option value="1">Personal developer</option>
+            <option value="2">Hobbyist</option>
+            <option value="3">Student</option>
+            <option value="4">Manager</option>
+            <option value="5">Other</option>
+          </select>
+          <label>Role</label>
+        </div>
         <button class="btn purple"> Sgnup</button>
       </div>
     </form>
@@ -185,6 +196,13 @@ Create An Account
   $(document).ready(function(){
     $('.modal').modal();
   });
+
+
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
+        
+        
     </script>
     </body>
   </html>
